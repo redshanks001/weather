@@ -3,7 +3,7 @@ name: Fetch Weather Data
 on:
   schedule:
     - cron: '0 * * * *'  # This will run the workflow every hour
-
+workflow_dispatch:
 jobs:
   fetch_weather:
     runs-on: ubuntu-latest
